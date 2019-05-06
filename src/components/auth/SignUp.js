@@ -15,7 +15,6 @@ export default class SignIn extends Component {
 
   submitHandler(e) {
     e.preventDefault();
-    console.log(this.state);
   }
 
   changeHandler(e) {
@@ -63,7 +62,7 @@ export default class SignIn extends Component {
             />
           </div>
           <div className='input-field'>
-            <button className='btn pink lighten-1 z-depth-0'>Login</button>
+            <button className='btn pink lighten-1 z-depth-0'>Sign Up</button>
           </div>
         </form>
       </div>
